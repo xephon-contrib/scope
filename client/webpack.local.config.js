@@ -21,7 +21,7 @@ const DEV_SERVER_URL = `webpack-dev-server/client?http://${WEBPACK_SERVER_HOST}:
 module.exports = {
 
   // Efficiently evaluate modules with source maps
-  devtool: 'cheap-module-source-map',
+  devtool: 'source-map',
 
   // Set entry point include necessary files for hot load
   entry: {
